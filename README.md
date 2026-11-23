@@ -4,6 +4,8 @@
 
 Desktop Explorer picks walk, jog, or run from world-space speed. The AvatarShape's scale is left out of that comparison. A 9x body moving at 10 m/s covers about 1.1 m/s relative to its own size, and a 3x body covers about 3.3 m/s. Both are walks, and the client plays run.
 
+https://github.com/user-attachments/assets/33d5ef22-c331-41a5-b7c4-ed7d77bec522
+
 ## Repro
 
 Three AvatarShapes share one world speed and ping-pong east-west between x = 10 and x = 54 on a 4x4 scene. **Slower** and **Faster** step that speed by 0.5 m/s between 0 and 16. It starts at 10 m/s.
